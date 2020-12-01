@@ -1,3 +1,31 @@
+p{
+    text-align: center;
+    font-size:26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 /* <!--------------------- ここから news/event----------------------> */
+#in img{
+    width: 500px;
+    height :500px;
+}
+
+#in2{
+    height: 900px;
+    width: 1200px;
+}
+
 /* <!--------------------- ここから best seller----------------------> */
+.swiper-slide img{
+    width: 400px;
+    height: 400px;
+}
+
+.swiper-container{
+    height: 500px;
+    width: 1000px;
+}
 /* <!--------------------- ここから footer----------------------> */
+
