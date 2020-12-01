@@ -7,6 +7,8 @@
     <title>rom&nd</title>
      <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/rom&nd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
   </head>
 <body>
     <!--------------------- ここからheader ---------------------->
@@ -20,8 +22,40 @@
      <!--------------------- ここからheader line ---------------------->
      <!--------------------- ここからtopphoto ---------------------->
      <!--------------------- ここからnew allival ---------------------->
+   
+   
      <!--------------------- ここから news/event---------------------->
+    
+
+
      <!--------------------- ここから best seller---------------------->
      <!--------------------- ここから footer---------------------->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <script>
+       var swiper = new Swiper('.swiper-container', {
+         slidesPerView: 1,
+         spaceBetween: 10,
+         // init: false,
+         navigation: {
+         nextEl: '.swiper-button-next',
+         prevEl: '.swiper-button-prev',
+         },
+         pagination: {
+           el: '.swiper-pagination',
+           clickable: true,
+         },
+         breakpoints: {
+           480: {
+             slidesPerView: 2,
+             spaceBetween: 20,
+           },
+   
+           960: {
+             slidesPerView: 4,
+             spaceBetween: 17,
+           },
+         }
+       });
+     </script>
 </body>
 </html>
