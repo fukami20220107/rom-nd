@@ -180,3 +180,102 @@ footer{
     margin-top:70px;    
 }
 
+/* スマフォ用 */
+@media screen and (max-width: 480px){
+
+    .main-color{
+        float:left;
+        margin-left:15px;
+        width: 80px;
+        height: 50px;
+        border-right:1px solid　#e7cdbc;
+        border-top:1px solid#e7cdbc;
+        background-color :#e7cdbc;
+    }
+    
+    .in-color{
+        float:left;
+        margin-left:15px;
+        width: 80px;
+        height: 50px;
+        border-right:1px solid　#eacab4;
+        border-top:1px solid #eacab4;
+        background-color :#eacab4;
+    }
+    
+    .out-color{
+        float:left;
+        margin-left:15px;
+        width: 80px;
+        height: 50px;
+        border-right:1px solid　#e4bc94;
+        border-top:1px solid #e4bc94;
+        background-color :#e4bc94;
+    }
+
+    .tab-content img{
+        height: 150px;
+        width:150px;
+        margin-left:10px;
+        margin-top:50px;
+    }
+    
+    .in-article{
+        width: 180px;
+        text-align: center;
+        margin-left:48px;
+        margin-top:10px;
+        font-size:12px;
+    }
+
+    .tab-content > div {
+        display: none;
+        padding:15px;
+        height: 500px;
+        line-height: 24px;
+    }
+
+    .tab-content{
+        width:300px;
+        border:2px solid#dfbca0;
+        margin:0 auto;
+
+    }
+
+    .top{
+        display: flex;   
+        margin-right: 20px; 
+    }
+    
+    .top li{
+        font-size: 16px;
+        margin:10px 35px;
+        border-bottom: cornsilk 2px solid;
+    }
+    
+    .clearfix{
+        display:flex;
+    }
+    
+    .fBox{
+        margin:0 30px;
+        margin-top:20px;
+    }
+    
+    .fBox-in{
+        display: flex;
+    }
+    
+    .fBox-in i{
+        margin-left:10px;
+        font-size:16px;
+    }
+    
+    .last-wrrite{
+        margin-top:30px; 
+        font-size:10px;
+    }
+
+ 
+
+}
