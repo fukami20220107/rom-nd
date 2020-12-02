@@ -17,6 +17,113 @@ p{
     width: 1200px;
 }
 
+
+/* <!--------------------- ここから タブメニュー----------------------> */
+
+/* タブメニュー */
+
+.margin-left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-color{
+    float:left;
+    margin-left:30px;
+    width: 150px;
+    height: 30px;
+    border-right:1px solid　#e7cdbc;
+    border-top:1px solid#e7cdbc;
+    background-color :#e7cdbc;
+}
+
+.in-color{
+    float:left;
+    margin-left:30px;
+    width: 150px;
+    height: 30px;
+    border-right:1px solid　#eacab4;
+    border-top:1px solid #eacab4;
+    background-color :#eacab4;
+}
+
+.out-color{
+    float:left;
+    margin-left:30px;
+    width: 150px;
+    height: 30px;
+    border-right:1px solid　#e4bc94;
+    border-top:1px solid #e4bc94;
+    background-color :#e4bc94;
+}
+
+.tab-nav{
+    margin:0 auto;
+}
+
+.tab-nav li:first-child {
+    border-left:3px solid #e7cdbc;
+}
+
+.tab-nav li a{
+    display:block;
+    padding:5px 10px;
+    color:#777;
+    text-decoration:none;
+}
+
+.tab-nav li a.active{
+    border-bottom:1px solid#dfbca0;
+    background-color :#dfbca0;
+    margin-bottom:-1px;
+}
+
+.tab-content{
+    width:900px;
+    border:2px solid#dfbca0;
+    margin:0 auto;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.tab-content > div {
+    display: none;
+    padding:15px;
+    height: 500px;
+    line-height: 24px;
+}
+
+.tab-content img{
+    height: 300px;
+    width:300px;
+    margin-left: 300px;
+}
+
+.in-article{
+    width: 350px;
+    text-align: center;
+    margin-left:90px;
+    margin-top:10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.in-article strong{
+    color:rgb(202, 64, 87);
+}
+
+
+/* タブメニューここまで */
+
+
 /* <!--------------------- ここから best seller----------------------> */
 .swiper-slide img{
     width: 400px;
@@ -28,4 +135,22 @@ p{
     width: 1000px;
 }
 /* <!--------------------- ここから footer----------------------> */
+footer{
+    width: auto;
+    height: 400px;
+    background-color: black;
+    margin-top:60px;
+    display: flex;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.top li{
+    font-size: 25px;
+    margin:20px;
+}
 
