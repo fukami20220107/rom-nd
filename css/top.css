@@ -1,6 +1,5 @@
 /* <!--------------------- ここからheader ----------------------> */
 header{
-    width: 100%;
     height: 120px;
     background-color: #1c2c2c;
 }
@@ -15,10 +14,7 @@ h1{
 
 /* <!--------------------- ここからheader line ----------------------> */
 .header_line{
-    width: 100%;
     height: 40px;
-    /* display: flex;
-    justify-content: space-around; */
     background-color: #d49976;
 }
 
@@ -40,3 +36,21 @@ form{
 }
 
 /* <!--------------------- ここからnew allival ----------------------> */
+
+
+
+/* スマフォ用 */
+@media screen and (max-width: 480px){
+    body {
+        min-width: 375px;
+      }
+
+    .swiper-container{
+        display: none;
+    }
+
+    .margin-left{
+        display: none;
+    }
+
+}
