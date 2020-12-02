@@ -44,13 +44,4 @@ form{
     body {
         min-width: 375px;
       }
-
-    .swiper-container{
-        display: none;
-    }
-
-    .margin-left{
-        display: none;
-    }
-
 }
