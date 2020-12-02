@@ -141,17 +141,42 @@ footer{
     background-color: #1c2c2c;
     margin-top:60px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color:cornsilk;
 }
 
 .top{
-    color: cornsilk;
-    display: flex;
-    
+    display: flex;   
+    margin-right: 70px; 
 }
 
 .top li{
     font-size: 25px;
-    margin:20px;
+    margin:20px 75px;
+    border-bottom: cornsilk 1px solid;
+}
+
+.clearfix{
+    display:flex;
+}
+
+.fBox{
+    margin:0 60px;
+    margin-top:50px;
+}
+
+.fBox-in{
+    display: flex;
+}
+
+.fBox-in i{
+    margin-left:20px;
+    font-size:30px;
+}
+
+.last-wrrite{
+    margin-top:70px;    
 }
 
