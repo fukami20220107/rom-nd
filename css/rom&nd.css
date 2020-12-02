@@ -126,8 +126,8 @@ p{
 
 /* <!--------------------- ここから best seller----------------------> */
 .swiper-slide img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 .swiper-container{
@@ -138,15 +138,16 @@ p{
 footer{
     width: auto;
     height: 400px;
-    background-color: black;
+    background-color: #1c2c2c;
     margin-top:60px;
     display: flex;
+    justify-content: center;
 }
 
 .top{
+    color: cornsilk;
     display: flex;
-    justify-content: center;
-    color: white;
+    
 }
 
 .top li{
