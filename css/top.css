@@ -1,10 +1,37 @@
 /* <!--------------------- ここからheader ----------------------> */
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #1c2c2c;
+}
 
+h1{
+    text-align: center;
+    padding-top: 40px;
+    color: cornsilk;
+    font-size: 30px;
+    font-weight: 400;
+}
 
 /* <!--------------------- ここからheader line ----------------------> */
+.header_line{
+    width: 100%;
+    height: 40px;
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: #d49976;
+}
 
+.btn-link{
+    margin-right: 30px;
+    color: #fff;
+
+}
 
 /* <!--------------------- ここからtopphoto ----------------------> */
-
+.carousel-inner img{
+    width: 100%;
+    height: 300px;
+}
 
 /* <!--------------------- ここからnew allival ----------------------> */
