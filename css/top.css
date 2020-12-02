@@ -35,13 +35,66 @@ form{
     height: 300px;
 }
 
+
 /* <!--------------------- ここからnew allival ----------------------> */
+.swiper-container{
+    height: 300px;
+}
 
+#carousel-newallive{
+    display: none;
+}
 
+#carousel-news{
+    display: none;
+}
+
+#carousel-bestseller{
+    display: none;
+}
 
 /* スマフォ用 */
 @media screen and (max-width: 480px){
     body {
         min-width: 375px;
       }
+
+    /* ヘッダー */
+    .carousel-inner img {
+        width: 480px;
+        height: 200px;
+    }
+
+    /* スライダーを訂正 */
+    .swiper-container {
+        display: none;
+    }
+
+    #carousel-newallive{
+        display: block;
+    }
+
+    #carousel-newallive img{
+        width: 350px;
+        height: 350px;
+    }
+
+    #carousel-news{
+        display: block;
+    }
+
+    #carousel-news img{
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-bestseller{
+        display: block;
+    }
+    
+    #carousel-bestseller img{
+        width: 350px;
+        height: 350px;
+    }
+
 }
