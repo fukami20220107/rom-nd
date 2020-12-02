@@ -45,6 +45,10 @@ form{
     display: none;
 }
 
+#carousel-news{
+    display: none;
+}
+
 #carousel-bestseller{
     display: none;
 }
@@ -68,18 +72,29 @@ form{
 
     #carousel-newallive{
         display: block;
-        width: 400px;
-        height: 400px;
+    }
+
+    #carousel-newallive img{
+        width: 350px;
+        height: 350px;
     }
 
     #carousel-news{
         display: block;
     }
 
+    #carousel-news img{
+        width: 400px;
+        height: 400px;
+    }
+
     #carousel-bestseller{
         display: block;
     }
     
-
+    #carousel-bestseller img{
+        width: 350px;
+        height: 350px;
+    }
 
 }
