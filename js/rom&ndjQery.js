@@ -11,3 +11,8 @@ $(".tab-nav a").on("click",function(){
         $(".tab-content > div").filter(this.hash).addClass("active");
        return false;
    });
+
+   
+//    $('.carousel').carousel({
+//     interval: 2000
+//   })
