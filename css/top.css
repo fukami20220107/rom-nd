@@ -35,13 +35,51 @@ form{
     height: 300px;
 }
 
+
 /* <!--------------------- ここからnew allival ----------------------> */
+.swiper-container{
+    height: 300px;
+}
 
+#carousel-newallive{
+    display: none;
+}
 
+#carousel-bestseller{
+    display: none;
+}
 
 /* スマフォ用 */
 @media screen and (max-width: 480px){
     body {
         min-width: 375px;
       }
+
+    /* ヘッダー */
+    .carousel-inner img {
+        width: 480px;
+        height: 200px;
+    }
+
+    /* スライダーを訂正 */
+    .swiper-container {
+        display: none;
+    }
+
+    #carousel-newallive{
+        display: block;
+        width: 400px;
+        height: 400px;
+    }
+
+    #carousel-news{
+        display: block;
+    }
+
+    #carousel-bestseller{
+        display: block;
+    }
+    
+
+
 }
