@@ -1,32 +1,5 @@
-<html lang="ja"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>rom&nd</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/rom&nd.css">
-    <link rel="stylesheet" href="css/top.css">
-    <script defer src="js/rom&nd.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
-    <script src="https://kit.fontawesome.com/9e1bf99b51.js" crossorigin="anonymous"></script>
-  </head>
-<body>
-    <!--------------------- ここからheader ---------------------->
-    <header>
-        <h1>rom&nd</h1>
-    </header>
-     <!--------------------- ここからheader line ---------------------->
-     <div class="header_line">
-        <div class="header_btn">
-            <button type="button" class="btn btn-link">New</button>
-            <button type="button" class="btn btn-link">Base</button>
-            <button type="button" class="btn btn-link">Lips</button>
-            <button type="button" class="btn btn-link">Eyes</button>
-            <button type="button" class="btn btn-link">About rom&nd</button>
-        </div>
-    </div>
+<?php get_header(); ?>
+
      
      <!-- ------------------- ここからtopphoto ---------------------->
      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -235,52 +208,6 @@
                 </a>
             </div>
           </div>
-     <!--------------------- ここから footer---------------------->
-     <footer>
-       <div>
-          <ul class="top">
-            <li>CATEGORY</li>
-            <li>HELP</li>
-            <li>SNS</li>
-          </ul>
-       </div>
-      <div class="clearfix">
-        <div  class="fBox">
-					<ul>
-						<li>ABOUT rom&nd</li>
-						<li>FACE</li>
-						<li>LIP MAKES</li>
-            <li>EYE MAKES</li>
-            <li>CHEEK & CONTOUR</li>
-            <li>NEWS $ EVENT</li>
-					</ul>
-				</div>
-				<div class="fBox">
-					 <ul>
-					  	<li>ご利用ガイド</li>
-						  <li>お問い合わせ</li>
-					  	<li>Contact</li>
-           </ul>
-        </div>
-        <div class="fBox">
-					<ul class="fBox-in">
-						<li><i class="fab fa-instagram"></i></li>
-						<li><i class="fab fa-facebook-square"></i></li>
-						<li><i class="fab fa-twitter-square"></i></li>
-          </ul>
-        </div>
-      </div>
-      <div class="last-wrrite">Copyright © rom&nd.Co.,Ltd.All Rights Reserved.</div>
-      
-     </footer>
 
-     <!--------------------- ここから script---------------------->
 
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/rom&ndjQery.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
