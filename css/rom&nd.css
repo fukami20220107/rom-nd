@@ -189,7 +189,7 @@ footer{
 
     .main-color{
         float:left;
-        margin-left:15px;
+        margin-left:10px;
         width: 80px;
         height: 50px;
         border-right:1px solid　#e7cdbc;
@@ -199,7 +199,7 @@ footer{
     
     .in-color{
         float:left;
-        margin-left:15px;
+        margin-left:10px;
         width: 80px;
         height: 50px;
         border-right:1px solid　#eacab4;
@@ -209,7 +209,7 @@ footer{
     
     .out-color{
         float:left;
-        margin-left:15px;
+        margin-left:10px;
         width: 80px;
         height: 50px;
         border-right:1px solid　#e4bc94;
