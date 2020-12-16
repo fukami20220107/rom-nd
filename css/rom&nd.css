@@ -120,8 +120,8 @@ p{
     font-family: 'Courier New', Courier, monospace;
 }
 
-.in-article strong{
-    color:rgb(202, 64, 87);
+.in-article a{
+    color:black;
 }
 
 
